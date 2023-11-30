@@ -22,7 +22,7 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 # In[]
 
-# 读取数据集
+# Read Dataset
 datalabel210103 = pd.read_excel('fakoulabeldata/202101-03.xls')
 datalabel210406 = pd.read_excel('fakoulabeldata/202104-06.xls')
 datalabel210709 = pd.read_excel('fakoulabeldata/202107-09.xls')
@@ -45,11 +45,11 @@ selected_data = np.r_[selected_data].reshape(-1, 1)
 
 lookback=8
 
-# 归一化数据
+# Normalized data
 scaler = MinMaxScaler(feature_range=(0, 1))
 selected_data = scaler.fit_transform(selected_data)
 
-# 将数据转换为适用于LSTM的输入格式
+# Convert data to input format suitable for LSTM
 def create_dataset(dataset):
     X, y = [], []
     for i in range(len(dataset) - lookback):
@@ -82,7 +82,7 @@ def custom_grid_search(create_model, param_grid, scoring, cv, record_file):
             adaboost_lstm = AdaBoostRegressor(base_estimator=lstm_model, n_estimators=params['n_estimators'])
             adaboost_lstm.fit(X_train, y_train)
 
-            # 进行预测
+            # PREDICTIONS
             y_pred = adaboost_lstm.predict(X_val)
 
             y_pred = scaler.inverse_transform(y_pred.reshape(-1, 1))
@@ -109,7 +109,7 @@ def custom_grid_search(create_model, param_grid, scoring, cv, record_file):
     
     return best_params, best_model, grid_scores, best_score
 
-# 定义Adaboost-LSTM模型
+# Define the Adaboost LSTM model
 def create_lstm_model():
     model = Sequential()
     model.add(LSTM(units=128, input_shape=(lookback, 1)))
@@ -130,7 +130,7 @@ best_params, best_model, grid_scores, best_score = custom_grid_search(create_mod
                                                           scoring=mean_squared_error,
                                                           cv=kf,
                                                           record_file="record_grid_ada-lstm.txt")
-# 输出最佳参数和对应的得分
+# Output the best parameters and corresponding scores
 print("Best Parameters:", best_params)
 print("Best MSE Score:", best_score)
 
