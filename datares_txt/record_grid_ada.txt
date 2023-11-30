@@ -1,0 +1,63 @@
+record for n_estimators search 
+kf_Score: 3857.835205078125
+kf_Score: 2166.605224609375
+kf_Score: 2315.014892578125
+kf_Score: 1898.3707275390625
+kf_Score: 1100.1878662109375
+Parameters: {'n_estimators': 1}, Score: 2267.605224609375
+
+kf_Score: 1767.4837646484375
+kf_Score: 3060.581787109375
+kf_Score: 3144.148193359375
+kf_Score: 1839.416015625
+kf_Score: 1416.164306640625
+Parameters: {'n_estimators': 2}, Score: 2245.560302734375
+
+kf_Score: 2351.71337890625
+kf_Score: 3356.425537109375
+kf_Score: 3352.601318359375
+kf_Score: 4904.17236328125
+kf_Score: 3829.1865234375
+Parameters: {'n_estimators': 3}, Score: 3558.816650390625
+
+kf_Score: 2569.53564453125
+kf_Score: 3017.286865234375
+kf_Score: 2384.617431640625
+kf_Score: 1378.071044921875
+kf_Score: 2117.6435546875
+Parameters: {'n_estimators': 4}, Score: 2293.432373046875
+
+kf_Score: 1661.2828369140625
+kf_Score: 2033.4083251953125
+kf_Score: 1690.8524169921875
+kf_Score: 2995.781494140625
+kf_Score: 3032.248291015625
+Parameters: {'n_estimators': 5}, Score: 2282.712890625
+
+kf_Score: 4900.05126953125
+kf_Score: 18652.6953125
+kf_Score: 61383.765625
+kf_Score: 27896.126953125
+kf_Score: 30463.646484375
+Parameters: {'n_estimators': 6}, Score: 28659.255859375
+
+kf_Score: 11391.5009765625
+kf_Score: 62962.40625
+kf_Score: 24519.525390625
+kf_Score: 33245.2265625
+kf_Score: 32634.185546875
+Parameters: {'n_estimators': 7}, Score: 32950.56640625
+
+kf_Score: 21143.208984375
+kf_Score: 26744.029296875
+kf_Score: 11225.9208984375
+kf_Score: 18645.431640625
+kf_Score: 42562.50390625
+Parameters: {'n_estimators': 8}, Score: 24064.1953125
+
+kf_Score: 23632.9765625
+kf_Score: 39599.9921875
+kf_Score: 18888.09375
+kf_Score: 24164.185546875
+kf_Score: 27053.8203125
+Parameters: {'n_estimators': 9}, Score: 26667.81640625

@@ -1,0 +1,27 @@
+record for units search 
+kf-score: 2211.792642925965
+kf-score: 2221.8630644802547
+kf-score: 1502.3422981408344
+kf-score: 1502.616035609711
+kf-score: 1485.2882031781457
+Parameters: {'batch_size': 48, 'epochs': 20, 'units': 32}, mean_Score: 1784.7804488669822
+kf-score: 4109.368708697712
+kf-score: 1672.9855177748932
+kf-score: 1623.257710648671
+kf-score: 2948.311811680915
+kf-score: 1195.6748392093707
+Parameters: {'batch_size': 48, 'epochs': 20, 'units': 64}, mean_Score: 2309.919717602312
+kf-score: 1939.748846915179
+kf-score: 2544.4142019883175
+kf-score: 1460.8499725830236
+kf-score: 1894.0859512281695
+kf-score: 1646.2740025541136
+Parameters: {'batch_size': 48, 'epochs': 20, 'units': 96}, mean_Score: 1897.0745950537607
+kf-score: 2519.3122467023104
+kf-score: 3628.191990718583
+kf-score: 2003.2289452437724
+kf-score: 3567.92774612116
+kf-score: 2021.5303355882388
+Parameters: {'batch_size': 48, 'epochs': 20, 'units': 128}, mean_Score: 2748.038252874813
+Best Parameters: {'batch_size': 48, 'epochs': 20, 'units': 32}
+Best MSE Score: 1784.7804488669822

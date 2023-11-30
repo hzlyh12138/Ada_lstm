@@ -1,0 +1,33 @@
+record for epochs search 
+kf-score: 1272.4905978856207
+kf-score: 1544.121532133102
+kf-score: 2015.441377579388
+kf-score: 2579.2784615792634
+kf-score: 1793.5296334553434
+Parameters: {'batch_size': 48, 'epochs': 10, 'units': 128}, mean_Score: 1840.9723205265436
+kf-score: 1755.853682127264
+kf-score: 1549.325377140957
+kf-score: 1497.3805031419438
+kf-score: 1192.119520929005
+kf-score: 1384.9067465773155
+Parameters: {'batch_size': 48, 'epochs': 20, 'units': 128}, mean_Score: 1475.9171659832969
+kf-score: 1726.5355235542518
+kf-score: 1045.3849038988928
+kf-score: 1955.3233124656585
+kf-score: 1379.3194130640695
+kf-score: 1349.9315150788473
+Parameters: {'batch_size': 48, 'epochs': 30, 'units': 128}, mean_Score: 1491.2989336123442
+kf-score: 1684.6870554308703
+kf-score: 1083.4269803687814
+kf-score: 1139.174101710295
+kf-score: 1720.4243882199764
+kf-score: 2215.796102650199
+Parameters: {'batch_size': 48, 'epochs': 40, 'units': 128}, mean_Score: 1568.7017256760244
+kf-score: 2846.2753591343635
+kf-score: 1163.6616500388325
+kf-score: 2348.100333365386
+kf-score: 1895.1105958399417
+kf-score: 1037.7417254610841
+Parameters: {'batch_size': 48, 'epochs': 50, 'units': 128}, mean_Score: 1858.177932767922
+Best Parameters: {'batch_size': 48, 'epochs': 20, 'units': 128}
+Best MSE Score: 1475.9171659832969
