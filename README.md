@@ -9,7 +9,7 @@ Urban gas pipelines must contend with situations such as road construction and e
 
 # maintainer
 
-Yunhao Li ， hzlyh12138@gmail.com 
+Yunhao Li ， hzlyh12138@gmail.com , China Jiliang University  
 
 # requirment
 
