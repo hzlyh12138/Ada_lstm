@@ -13,8 +13,8 @@ Yunhao Li ， hzlyh12138@gmail.com , China Jiliang University
 
 # requirment
 
--------Tensorflow 2.9.0
--------CUDA 11.2
--------PYTHON 3.8
--------scipy 1.7.1
--------scikit-learn 1.3.1
+-------Tensorflow 2.9.0  <br>
+-------CUDA 11.2  <br>
+-------PYTHON 3.8  <br>
+-------scipy 1.7.1  <br>
+-------scikit-learn 1.3.1  <br>
