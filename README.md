@@ -1,4 +1,4 @@
-# Enhanced Deep Learning Method for Natural Gas Pipeline Flow Prediction Based on Integrated Learning
+# Intelligent Prediction Method for Reliability of Gas Pipeline Network Based on Deep Learning  <br>
 
 
 ## ARTICLE RESEARCH 
