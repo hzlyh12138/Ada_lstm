@@ -20,7 +20,7 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 lookback = 8
 
-# 读取数据集
+
 datalabel210103 = pd.read_excel('fakoulabeldata/202101-03.xls')
 datalabel210406 = pd.read_excel('fakoulabeldata/202104-06.xls')
 datalabel210709 = pd.read_excel('fakoulabeldata/202107-09.xls')
@@ -44,7 +44,7 @@ selected_data = np.r_[selected_data].reshape(-1, 1)
 scaler = MinMaxScaler(feature_range=(0, 1))
 selected_data = scaler.fit_transform(selected_data)
 
-# 将数据转换为适合 LSTM 的输入格式
+
 def create_dataset(dataset):
     X, y = [], []
     for i in range(len(dataset) - lookback):
@@ -94,14 +94,14 @@ def custom_grid_search(estimator_bn, param_grid, scoring, cv, record_file, best_
             best_score = mean_score
             best_params = params
             best_model = model
-            model.save(best_model_file)  # 保存最优模型
+            model.save(best_model_file)  
 
         with open(record_file, "a") as f:
             f.write(f"Parameters: {params}, mean_Score: {mean_score}\n")
 
     return best_params, best_model, grid_scores, best_score
 
-# 定义创建 LSTM 模型的函数
+
 def create_model(unit):
     model = Sequential()
     model.add(LSTM(units=unit, input_shape=(lookback, 1)))
@@ -111,7 +111,7 @@ def create_model(unit):
     return model
 
 
-# 定义参数范围
+
 param_grid = {
     'units': [32, 64, 96, 128], 
     'batch_size':[48],
